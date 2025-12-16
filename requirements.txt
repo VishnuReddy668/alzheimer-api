@@ -2,7 +2,10 @@ fastapi
 uvicorn
 pandas
 numpy
+streamlit
+requests
 scikit-learn==1.6.1
 opencv-python-headless
 python-multipart
 joblib
+python-multipart
