@@ -33,7 +33,7 @@ if uploaded_file is not None:
                 result = response.json()["prediction"]
 
                 if result == "P":
-                    st.error("⚠️ Parkinson / Cognitive Risk Detected")
+                    st.error("⚠️ Alzheimer / Cognitive Risk Detected")
                 else:
                     st.success("✅ No Cognitive Impairment Detected")
             else:
